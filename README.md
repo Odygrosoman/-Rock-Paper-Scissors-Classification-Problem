@@ -11,11 +11,11 @@ To solve the classification problem, I first trained Random Forest, K-Nearest Ne
 The accuracies of each model are shown in the table below.
 | Model | Accuracy |
 |----------|----------|
-| Random Forest | 94,74% |
-| SVC | 96,11% |
-| KNN | 92,69% |
-| Hard Vote (RF,SVC,KNN) | 97,03% |
-| CNN | 97,71% |
+| Random Forest | 96,34% |
+| SVC | 96,8% |
+| KNN | 94,29% |
+| Hard Vote (RF,SVC,KNN) | 97,48% |
+| CNN | 99,31% |
 
 For solving classification problem i choose the CNN model.
 
@@ -27,7 +27,7 @@ My agent and the opponent's agent played 500 games. Their beginning budget was 1
 
 ![αρχείο λήψης](https://github.com/Odygrosoman/-Rock-Paper-Scissors-Classification-Problem/assets/118894987/6832b150-a10a-4b2c-8e1a-1a418d07ddb9)
 
-As you can see, my agent has achieved to win  the opponent agent. The accuracy of images prediction was 84,2%.
+As you can see, my agent has achieved to win  the opponent agent. The accuracy of images prediction was 85,8%.
 
 Subsequently i tryed to test my agent in a harder dataset. I use the images of the dataset: https://www.kaggle.com/datasets/glushko/rock-paper-scissors-dataset
 
@@ -35,11 +35,8 @@ Subsequently i tryed to test my agent in a harder dataset. I use the images of t
   <img src="https://www.romaglushko.com/blog/rock-paper-scissors/rock-paper-scissors-cover.jpeg" alt="Your Image Alt Text" />
 </p>
 
-With this dataset the prediction accuracy was 27% and the opponent agent has achieved to win my agent. 
+With this dataset the prediction accuracy was 29,8% and the opponent agent has achieved to win my agent. 
 
-![αρχείο λήψης (1)](https://github.com/Odygrosoman/-Rock-Paper-Scissors-Classification-Problem/assets/118894987/4ba5056e-0cb3-425a-88ba-d7788b4f42af)
-
-
-
+![αρχείο λήψης (2)](https://github.com/Odygrosoman/-Rock-Paper-Scissors-Classification-Problem/assets/118894987/4b1aba1f-3ebd-411c-b759-dc423610f38a)
 
 
